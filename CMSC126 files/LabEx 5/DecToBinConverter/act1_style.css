@@ -1,0 +1,109 @@
+/* external css file for Activity 1*/
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+img{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 40px;
+    position: relative;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 55px;
+    color: #5433FF;
+}
+/* styles the description of the program */
+#desc{
+    
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+#name{
+    
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+
+}
+.container{
+    width: 35%;
+    min-width: 450px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    position: absolute;
+    margin-top: 45px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.18);
+}
+
+.container *{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: lighter;
+    outline: none;
+    font-size: 18px;
+}
+/* styles the input field */
+#num{
+    font-family: 'Quicksand', sans-serif;
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    padding: 10px 5px;
+    font-weight: 400;
+}
+
+#num:focus{
+    border-bottom: 2px solid #5433FF;
+}
+/*styles the submit button*/
+button{
+    
+    width: 25%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #5433FF;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+p{
+    margin-bottom: 5px;
+    text-align: left;
+    color: #5433FF;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 45px;
+}
+/* styles the final output of the program */
+#output{
+    margin-top: 30px;
+    text-align: center;
+    color: #5433FF;
+    font-weight: 500;
+    font-family: 'Kumbh Sans', sans-serif;
+}
