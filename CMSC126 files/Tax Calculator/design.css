@@ -1,0 +1,105 @@
+/* external css for icome tax payables computations */
+
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #950740;
+    background: linear-gradient(to left, #950740, #1F1C18);
+}
+
+/* styles the where the the whole flow of the program is located */
+#container {
+    height: 750px;
+    width: 800px;
+    margin: 100px auto;
+    background: #ffffff;
+    border-radius: 0px;
+}
+
+/* styles the title and other texts in the site*/
+h1{
+    background: #0b0c10;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 150px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight:bolder;
+    text-shadow: 2px 2px #950740;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+    margin-right: 25px;
+}
+
+/* styles the description of the program */
+#desc{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    
+}
+
+/* styles the name*/
+#name{
+    padding-left: 20px;
+}
+
+#calculator{
+    position: relative;
+    padding-left: 20px;
+}
+
+/* styles the final output of the program */
+#demo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color:#c3073f;
+    text-shadow: 2px 2px #202020;
+    text-align-last: center;
+    margin-right: 25px;
+}
+
+/* styles the input field */
+input[type=number]{
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border:  1px solid #202020;
+    outline: none;
+}
+
+/*styles the submit button*/
+#btn{
+    padding: 6px 45px 6px;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: #0b0c10;
+    color: #c3073f;
+    font-weight: bolder;
+    border: none;
+    outline: none; 
+}
+
+#btn:hover {
+    background-color: #950740; 
+    color: white;
+    border: none;
+  }
+
+/* styles the questions of the form*/
+.questions{
+      font-weight: bolder;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px;
+  }
+

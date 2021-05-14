@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="design.css">
+  <meta charset="utf-8">
+
+  <title>Income Tax Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Income Tax Payables</h1> 
+        <!--description of program-->
+          <p id="desc">
+            This web application lets you compute your income tax payables
+            with the use of a few relevant information like your monthly income,
+            number of dependents, and if you are insured by GSIS or SSS. It's fast, simple,
+            and hassle-free!
+          </p>
+        <p id="name">
+          By: Julienne Marzo [2020-10718]
+        </p>
+
+        <div id="calculator">
+  <!--start of form-->        
+  <form >
+
+    <!--form for monthly income--> 
+      <p class="questions">
+      <label for="income">Monthly Income: </label><br>
+      <input type="number" id="incomePerMonth" name="income" min="1"><br>
+      </p>
+
+      <!--form for number of dependents-->
+      <p class="questions">Number of Dependents (e.g. old parent & children below 21 years old):</p>
+      
+      <input type="radio" id="0" name="dependents" value="0">
+      <label for="0">0</label><br>
+      
+      <input type="radio" id="1" name="dependents" value="1">
+      <label for="1">1</label><br>
+      
+      <input type="radio" id="2" name="dependents" value="2">
+      <label for="2">2</label><br>
+      
+      <input type="radio" id="3" name="dependents" value="3">
+      <label for="3">3</label><br>
+      
+      <input type="radio" id="4" name="dependents" value="4">
+      <label for="4">4 or more</label><br>
+
+      <!--form to determine if user receives either GSIS or SSS -->
+      <p class="questions" >Are you a government worker?</p>
+
+      <input type="radio" id="yes" name="govtworker" value="yes">
+      <label for="yes">Yes</label><br>
+      
+      <input type="radio" id="no" name="govtworker" value="no">
+      <label for="no">No</label><br>
+      </p>
+  </form>
+  <!--end of form-->
+
+  <button id="btn" onclick="display()">Submit</button>
+  <h2>Your income tax payables amount to:</h2>
+  <p id="demo"></p>
+</div>
+
+  <script src="computations.js"> </script>
+</body>
+</html>
